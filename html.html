@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="mujkaskadovystyl.css" />
+  <meta http-equiv="content-type" content="text/html; charset=CP1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title></title>
+  </head>
+  <body>
+<div id="page-top">
+    <div id="logo">
+    <a href="index.html" title=Domů>
+    <img src="domu.png" width="110" height="100">
+    </a>
+</div>
+<h1>Jak na webové stránky</h1>
+<h2>HTML a kaskádové styly</h2>
+</div>
+
+<div id="top-navigation">
+  <ul>
+    <li><a href="index.html" title="Domácí stránka předmětu">Domů</a></li>
+    <li><a href="zaklady.html" title="Jak pracovat s HTML/CSS">Základy</a></li>
+    <li><a href="html.html" title="Prvky stránek a jazyk HTML">HTML</a></li>
+    <li><a href="css.html" title="Základy kaskádových stylů">CSS</a></li>
+    <li></li>
+  </ul>
+</div>
+
+<div id="page-content">
+  <a name="obsah-stranky"></a>
+  <a name="top"></a>
+  <h3>Co to je HTML?</h3>
+
+
+  <div class="bodyText">
+  
+    <p>HTML je zkratka pocházející z anglického HyperText Markup Language (to by se dalo přeložit jako značkovací jazyk pro hypertext). 
+    Obsah webové stránky mohou tvořit texty, obrázky, tabulky, multimédia a další prvky. Webové stránky jsou mezi sebou vzájemně propojeny pomocí hypertextových odkazů.</p>  
+   Tvoří se pomocí tzv. tagů, které se uzavírají do špičatých závorek <>. S jeho základní znalostí lze vytvořit jednoduché, ale pěkně vypadající webové stránky. Větší znalosti jazyka HTML, ale i jiných (např. XHTML, XML, CSS apod.) samozřejmě pomůžou stránky udělat propracovanější a efektnější.
+     <img src=html.png align=right width=25%>
+    <p> Předchůdce HTML je SGML (Standard Generalized Markup Language)5, byl však velmi složitý a těžkopádný, proto se hledalo něco jednoduššího. Tak v roce 1990 Tim Bernes-Lee se svým týmem vyvinul první verzi HTML, ta však ještě vůbec neobsahovala formátování textu, zahrnovala jen formuláře, tabulky a obrázky s popiskem. Protože se internet, world wide web, trendy a hlavně webové prohlížeče stále vyvíjejí, musí se zákonitě vyvíjet i tento značkovací jazyk. </p>
+    <a name="znacky-parove"></a>    
+    <h4>Původ HTML a párové značky</h4>
+    <p>Jazyk HTML je podmnožinou dříve vyvinutého rozsáhlého univerzálního značkovacího jazyka SGML (Standard Generalized Markup Language). Je charakterizován množinou značek a jejich atributů pro danou verzi definovaných. Mezi značky se uzavírají části textu dokumentu a tím se určuje význam (sémantiku) obsaženého textu. Názvy jednotlivých značek se uzavírají mezi úhlové závorky („<span class="tagname">&lt;</span>“ a „<span class="tagname">&gt;</span>“). Část dokumentu uzavřená mezi značkami tvoří tzv. element (prvek) dokumentu. Součástí obsahu elementu mohou být další vnořené elementy. Atributy jsou doplňující informace, které upřesňují vlastnosti elementu. Značky, zvané tagy jsou obvykle párové. Rozlišujeme počáteční a koncové značky. Koncová značka má před názvem značky znak lomítko. Příklad, jak rozčlenit text na odstavce:</p>
+    <pre>&lt;p&gt;Tento text je odstavcem.&lt;/p&gt;</pre>
+    <p style="color: green;">Tento text je odstavcem.</p>
+    <a name="znacky-neparove"></a>
+    <h4>Nepárové značky</h4>
+    <p>Některé značky jsou nepárové – neobsahují žádný text. Příklad použití takové značky pro vykreslení vodorovné čáry:</p>
+    <pre>&lt;hr&gt;</pre>
+    <hr width="96%">
+    <a name="atributy-elementu"></a>
+    <h4>Atributy elementů</h4>
+    <p>Tagy mohou obsahovat atributy popisující jejich vlastnosti nebo nesou jinou informaci. Příkladem může být odkaz (tag <span class="tagname">&lt;a&gt;</span>), jehož atribut <span class="tagname">href</span> říká, kam se uživatel po kliknutí na něj dostane. V následujícím příkladu vede odkaz na stránku http://example.com:</p>
+    <pre>&lt;a href="http://example.com"&gt;odkaz&lt;/a&gt;</pre>
+    <a href="http://example.com">odkaz</a>
+    <br>
+    <br>
+    <h4> Párové tagy - další příklady:</h4>
+    </div>
+    
+    <table align=center; cellpading=10px; border=3px; bgcolor=#F2FFBF rules=all frame=border>
+    <thead><tr><th>tag</th><th>Význam</th><th>Párový</th></tr>
+    <tbody><tr><td>html</td><td>začátek HTML dokumentu</td><td>ano</td></tr>
+           <tr><td>head</td><td>hlavička stránky</td><td>ano</td></tr>
+           <tr><td>body</td><td>tělo stránky + definice pozadí</td><td>ano</td</tr>
+           <tr><th>&lt;!-- --&gt; </th><td>poznámka</td><td>ano</td></tr>
+           <tr><td>!doctype</td><td>specifikace DTD</td><td>ne</td></tr>
+    </table>
+    
+  
+</div>
+<div id="page-footer">
+</div>
+  </body>
+</html>

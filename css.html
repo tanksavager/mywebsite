@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="mujkaskadovystyl.css" />
+  <meta http-equiv="content-type" content="text/html; charset=CP1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title></title>
+  </head>
+  <body>
+<div id="page-top">
+    <div id="logo">
+    <a href="index.html" title=Domů>
+    <img src="domu.png" width="110" height="100">
+    </a>
+</div>
+<h1>Jak na webové stránky</h1>
+<h2>HTML a kaskádové styly</h2>
+</div>
+
+<div id="top-navigation">
+  <ul>
+    <li><a href="index.html" title="Domácí stránka předmětu">Domů</a></li>
+    <li><a href="zaklady.html" title="Jak pracovat s HTML/CSS">Základy</a></li>
+    <li><a href="html.html" title="Prvky stránek a jazyk HTML">HTML</a></li>
+    <li><a href="css.html" title="Základy kaskádových stylů">CSS</a></li>
+    <li></li>
+  </ul>
+</div>
+
+<div id="page-content">
+  <a name="obsah-stranky"></a>
+  <h3>CSS</h3>
+
+  <div class="bodyText">
+    <p>CSS znamená Cascading Style Sheets, česky kaskádové styly, či pouze “styly”. A zatímco HTML se používá ke strukturování webu (definování prvků, jako jsou nadpisy a odstavce, umožnění vkládání obrázků, videí a dalších médií), CSS určuje styl vašeho dokumentu – rozvržení stránky, barvy, písma a velikosti.
+    </p>  
+     <img src=css.png align=right width=20%>
+  <h3>Jak funguje CSS?</h3>
+  <p>CSS tedy dodává styl vašim webovým stránkám a dělá to interakcí s prvky z kódu HTML. 
+  Prvky jsou jednotlivé komponenty HTML webové stránky – například odstavec.
+
+Ten se zobrazuje díky HTML. Pokud ale chcete, aby byl modrý a tučný, použili byste kód CSS, který vypadá takto:
+<p>
+
+p  {  color:blue;  font-weight:bold;  }
+</p>
+<p>
+
+color:blue značí, že bude odstavec modrý a font-weight:bold značí tučné písmo.
+</p>
+V tomto případě se „p“ (odstavec) nazývá „selektor“ – jedná se o část kódu CSS určující, který prvek HTML bude stylem CSS ovlivněn. V CSS je selektor zapsán nalevo od první složené závorky. 
+Informace mezi složenými závorkami se nazývá deklarace a obsahuje vlastnosti a hodnoty, které se aplikují na selektor. Vlastnosti jsou například velikost písma, barva a okraje, zatímco hodnoty jsou nastavení pro tyto vlastnosti. 
+Ve výše uvedeném příkladu jsou „color“ a „font-weight“ vlastnosti a „blue“ a „bold“ jsou hodnoty.
+  </p>
+  
+  <p>Později byly do jazyka HTML přidány některé nesémantické prvky (např. značka
+   <code>font</code>), které měly za úkol definovat vzhled objektů.
+    Zároveň se začaly pro formátování vzhledu stránek zneužívat tabulky.
+  </p>
+
+  <p>Jazyk CSS a hlavně jeho rozšířená podpora mezi prohlížeči umožnil 
+    <strong>oddělení struktury obsahu a formy</strong> webové stránky a návrat
+    k <em>návrat k původnímu sémantickému významu </em> jazyka HTML. 
+  </p>
+  
+  <h3>Příklad použití kaskádového stylu</h3>
+  <p>Pomocí CSS můžete pro každý element stránky definovat jeho vlastnosti, například
+     barvu, pozadí, zarovnání, velikost, umístění, ...  a to dokonce v závislosti na 
+     zařízení, které stránku zobrazuje (monitor počítače, tiskárna, mobilní telefon, PDA, ...).
+     Následující příklad ukazuje, jak obarvit text odstavce nazeleno.
+  </p>
+  <pre>&lt;p style="color: green;"&gt;Tento odstavec je zelený.&lt;/p&gt;</pre>
+  <p style="color: green;">Tento odstavec je zelený.</p>
+
+  </div>
+</div>
+<div id="page-footer">
+</div>
+  </body>
+</html>
